@@ -6,7 +6,7 @@ $DestPathZip = "$( $CurrentLocation.FullName )\NetworkDetectiveComputerDataColle
 $Client = New-Object System.Net.WebClient
 $Client.DownloadFile($Url, $DestPath)
 
-mv $DestPath $DestPathZip
+Move-Item $DestPath $DestPathZip
 Expand-Archive -Path $DestPathZip
 Remove-Item -Path $DestPathZip
 
