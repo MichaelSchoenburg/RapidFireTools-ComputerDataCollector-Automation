@@ -1,7 +1,7 @@
 # RapidFireTools-ComputerDataCollector-Automation
 Automation for RapidFire Tools Computer Data Collector.
 
-This projects code loosly follows the PowerShell Practice and Style guide*, as well as Microsofts PowerShell scripting performance considerations**.
+This projects code loosely follows the PowerShell Practice and Style guide*, as well as Microsofts PowerShell scripting performance considerations**.
 
 \* https://poshcode.gitbook.io/powershell-practice-and-style/
 
